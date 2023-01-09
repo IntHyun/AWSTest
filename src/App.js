@@ -13,7 +13,7 @@ function App() {
 
   testAxios();
 
-  return <h1>AWS Test</h1>;
+  return <button onClick={testAxios}>Click me!</button>;
 }
 
 export default App;
